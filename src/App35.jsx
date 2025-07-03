@@ -185,6 +185,7 @@ function MyComp4() {
 function App35(props) {
   return (
     <div>
+      {/*컨텍스트*/}
       <MyComp4 />
       <hr />
       {/*컨텍스트*/}
