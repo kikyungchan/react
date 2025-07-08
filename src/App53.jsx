@@ -100,7 +100,7 @@ function App53(props) {
     const searchParams = new URLSearchParams();
     searchParams.set("city", "london");
     searchParams.set("country", "UK");
-    searchParams.set("id", "37");
+    searchParams.set("id", 37);
 
     axios.get("/api/main28/sub14", {
       params: searchParams,
@@ -169,7 +169,7 @@ function App53(props) {
   }
 
   function handleButton22Click() {
-    // 연결연산자로 urlsearchparams 연결
+    // 연결연산자로 UrlSearchParams 연결
     const p = new URLSearchParams();
     p.set("fruit", fruit);
     p.set("price", price);
@@ -178,7 +178,7 @@ function App53(props) {
   }
 
   function handleButton23Click() {
-    // urlsearchparams 를 객체에 담는
+    // UrlSearchParams 를 객체에 담는
     const p = new URLSearchParams();
     p.set("fruit", fruit);
     p.set("price", price);

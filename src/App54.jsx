@@ -69,7 +69,7 @@ function App54(props) {
   function handleButton10Click() {
     axios.post("/api/main29/sub10", {
       cityList: ["london", "seoul", "tokyo"],
-      team: "manyou",
+      team: "ManU",
     });
   }
 
